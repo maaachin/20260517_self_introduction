@@ -158,6 +158,34 @@
       border-top: 1px solid #f0e8f8;
       margin: 1.8rem 0;
     }
+
+    /* SNSリンク */
+    .sns-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+
+    .sns-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      font-size: 0.88rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+
+    .sns-link:hover {
+      opacity: 0.75;
+    }
+
+    .sns-link.x {
+      background: #000000;
+      color: #ffffff;
+    }
   </style>
 </head>
 <body>
@@ -259,6 +287,21 @@
           </svg>
           カレー
         </span>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- SNS -->
+    <div class="section">
+      <div class="section-title"><span>SNS</span></div>
+      <div class="sns-list">
+        <a href="https://x.com/maaachin123" target="_blank" rel="noopener noreferrer" class="sns-link x">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          @maaachin123
+        </a>
       </div>
     </div>
 
