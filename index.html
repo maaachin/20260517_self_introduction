@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <title>まーちん | 自己紹介</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -185,6 +186,37 @@
     .sns-link.x {
       background: #000000;
       color: #ffffff;
+    }
+
+    /* スマホ対応 (480px以下) */
+    @media (max-width: 480px) {
+      body {
+        align-items: flex-start;
+        padding: 1.2rem 0.8rem;
+      }
+
+      .card {
+        padding: 2rem 1.2rem;
+        border-radius: 1.2rem;
+      }
+
+      .photo-frame {
+        width: 110px;
+        height: 110px;
+      }
+
+      .name {
+        font-size: 1.6rem;
+      }
+
+      .bio-text {
+        font-size: 0.9rem;
+      }
+
+      .hobby-tag {
+        font-size: 0.82rem;
+        padding: 0.4rem 0.85rem;
+      }
     }
   </style>
 </head>
